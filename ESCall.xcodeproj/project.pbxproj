@@ -14,6 +14,19 @@
 		7969215D2C93B2BC000BB689 /* ESCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7969215C2C93B2BC000BB689 /* ESCallTests.swift */; };
 		796921672C93B2BC000BB689 /* ESCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796921662C93B2BC000BB689 /* ESCallUITests.swift */; };
 		796921692C93B2BC000BB689 /* ESCallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796921682C93B2BC000BB689 /* ESCallUITestsLaunchTests.swift */; };
+		7969217E2C93B701000BB689 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 7969217D2C93B701000BB689 /* SplineRuntime */; };
+		796921802C93C00B000BB689 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7969217F2C93C00B000BB689 /* WelcomeView.swift */; };
+		796921822C93C026000BB689 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796921812C93C026000BB689 /* TutorialView.swift */; };
+		796921842C93C04A000BB689 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796921832C93C04A000BB689 /* HomeView.swift */; };
+		796921892C93CB9D000BB689 /* ProximaNovaRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 796921882C93CB9D000BB689 /* ProximaNovaRegular.otf */; };
+		7969218B2C93CBB8000BB689 /* ProximaNovaBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7969218A2C93CBB8000BB689 /* ProximaNovaBold.otf */; };
+		7969218F2C93CE5E000BB689 /* VolumeButtonHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7969218E2C93CE5E000BB689 /* VolumeButtonHandler.swift */; };
+		796921912C93CEDD000BB689 /* FakeCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796921902C93CEDD000BB689 /* FakeCallView.swift */; };
+		796921932C93CF65000BB689 /* CallInProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796921922C93CF65000BB689 /* CallInProgressView.swift */; };
+		796921A12C93E99A000BB689 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796921A02C93E99A000BB689 /* UIImage.swift */; };
+		796921A72C93EC95000BB689 /* ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 796921A62C93EC95000BB689 /* ringtone.mp3 */; };
+		796921A92C93F1F2000BB689 /* tutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 796921A82C93F1F2000BB689 /* tutorial.mp4 */; };
+		796921AB2C93F211000BB689 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796921AA2C93F210000BB689 /* VideoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,19 @@
 		796921622C93B2BC000BB689 /* ESCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		796921662C93B2BC000BB689 /* ESCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCallUITests.swift; sourceTree = "<group>"; };
 		796921682C93B2BC000BB689 /* ESCallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7969217F2C93C00B000BB689 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		796921812C93C026000BB689 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		796921832C93C04A000BB689 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		796921852C93C62C000BB689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		796921882C93CB9D000BB689 /* ProximaNovaRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaRegular.otf; sourceTree = "<group>"; };
+		7969218A2C93CBB8000BB689 /* ProximaNovaBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaBold.otf; sourceTree = "<group>"; };
+		7969218E2C93CE5E000BB689 /* VolumeButtonHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeButtonHandler.swift; sourceTree = "<group>"; };
+		796921902C93CEDD000BB689 /* FakeCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCallView.swift; sourceTree = "<group>"; };
+		796921922C93CF65000BB689 /* CallInProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallInProgressView.swift; sourceTree = "<group>"; };
+		796921A02C93E99A000BB689 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		796921A62C93EC95000BB689 /* ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ringtone.mp3; sourceTree = "<group>"; };
+		796921A82C93F1F2000BB689 /* tutorial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tutorial.mp4; sourceTree = "<group>"; };
+		796921AA2C93F210000BB689 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7969217E2C93B701000BB689 /* SplineRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +101,11 @@
 		7969213F2C93B2BA000BB689 = {
 			isa = PBXGroup;
 			children = (
+				796921AA2C93F210000BB689 /* VideoView.swift */,
+				796921A82C93F1F2000BB689 /* tutorial.mp4 */,
+				796921A62C93EC95000BB689 /* ringtone.mp3 */,
+				796921A02C93E99A000BB689 /* UIImage.swift */,
+				796921922C93CF65000BB689 /* CallInProgressView.swift */,
 				7969214A2C93B2BA000BB689 /* ESCall */,
 				7969215B2C93B2BC000BB689 /* ESCallTests */,
 				796921652C93B2BC000BB689 /* ESCallUITests */,
@@ -94,10 +126,18 @@
 		7969214A2C93B2BA000BB689 /* ESCall */ = {
 			isa = PBXGroup;
 			children = (
+				796921852C93C62C000BB689 /* Info.plist */,
 				7969214B2C93B2BA000BB689 /* ESCallApp.swift */,
 				7969214D2C93B2BA000BB689 /* ContentView.swift */,
 				7969214F2C93B2BC000BB689 /* Assets.xcassets */,
+				7969218A2C93CBB8000BB689 /* ProximaNovaBold.otf */,
+				796921882C93CB9D000BB689 /* ProximaNovaRegular.otf */,
 				796921512C93B2BC000BB689 /* Preview Content */,
+				7969217F2C93C00B000BB689 /* WelcomeView.swift */,
+				7969218E2C93CE5E000BB689 /* VolumeButtonHandler.swift */,
+				796921902C93CEDD000BB689 /* FakeCallView.swift */,
+				796921832C93C04A000BB689 /* HomeView.swift */,
+				796921812C93C026000BB689 /* TutorialView.swift */,
 			);
 			path = ESCall;
 			sourceTree = "<group>";
@@ -143,6 +183,9 @@
 			dependencies = (
 			);
 			name = ESCall;
+			packageProductDependencies = (
+				7969217D2C93B701000BB689 /* SplineRuntime */,
+			);
 			productName = ESCall;
 			productReference = 796921482C93B2BA000BB689 /* ESCall.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +204,8 @@
 				7969215A2C93B2BC000BB689 /* PBXTargetDependency */,
 			);
 			name = ESCallTests;
+			packageProductDependencies = (
+			);
 			productName = ESCallTests;
 			productReference = 796921582C93B2BC000BB689 /* ESCallTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -179,6 +224,8 @@
 				796921642C93B2BC000BB689 /* PBXTargetDependency */,
 			);
 			name = ESCallUITests;
+			packageProductDependencies = (
+			);
 			productName = ESCallUITests;
 			productReference = 796921622C93B2BC000BB689 /* ESCallUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -215,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 7969213F2C93B2BA000BB689;
+			packageReferences = (
+				7969217C2C93B701000BB689 /* XCRemoteSwiftPackageReference "spline-ios" */,
+			);
 			productRefGroup = 796921492C93B2BA000BB689 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +283,10 @@
 			files = (
 				796921532C93B2BC000BB689 /* Preview Assets.xcassets in Resources */,
 				796921502C93B2BC000BB689 /* Assets.xcassets in Resources */,
+				796921892C93CB9D000BB689 /* ProximaNovaRegular.otf in Resources */,
+				796921A72C93EC95000BB689 /* ringtone.mp3 in Resources */,
+				7969218B2C93CBB8000BB689 /* ProximaNovaBold.otf in Resources */,
+				796921A92C93F1F2000BB689 /* tutorial.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +312,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7969214E2C93B2BA000BB689 /* ContentView.swift in Sources */,
+				796921802C93C00B000BB689 /* WelcomeView.swift in Sources */,
+				7969218F2C93CE5E000BB689 /* VolumeButtonHandler.swift in Sources */,
+				796921912C93CEDD000BB689 /* FakeCallView.swift in Sources */,
+				796921822C93C026000BB689 /* TutorialView.swift in Sources */,
+				796921842C93C04A000BB689 /* HomeView.swift in Sources */,
+				796921A12C93E99A000BB689 /* UIImage.swift in Sources */,
+				796921932C93CF65000BB689 /* CallInProgressView.swift in Sources */,
+				796921AB2C93F211000BB689 /* VideoView.swift in Sources */,
 				7969214C2C93B2BA000BB689 /* ESCallApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,8 +484,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ESCall/Preview Content\"";
+				DEVELOPMENT_TEAM = 44J6MDM525;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ESCall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -434,7 +498,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = beabstracto.ESCall;
+				PRODUCT_BUNDLE_IDENTIFIER = thiagoandrade.ESCall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,8 +514,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ESCall/Preview Content\"";
+				DEVELOPMENT_TEAM = 44J6MDM525;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ESCall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,7 +528,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = beabstracto.ESCall;
+				PRODUCT_BUNDLE_IDENTIFIER = thiagoandrade.ESCall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -582,6 +648,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7969217C2C93B701000BB689 /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/splinetool/spline-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7969217D2C93B701000BB689 /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7969217C2C93B701000BB689 /* XCRemoteSwiftPackageReference "spline-ios" */;
+			productName = SplineRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 796921402C93B2BA000BB689 /* Project object */;
 }

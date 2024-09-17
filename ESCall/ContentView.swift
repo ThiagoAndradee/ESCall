@@ -1,24 +1,28 @@
-//
-//  ContentView.swift
-//  ESCall
-//
-//  Created by Andrade, Thiago on 13.09.24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("hasSeenWelcome") var hasSeenWelcome: Bool = false
+    @AppStorage("hasSeenTutorial") var hasSeenTutorial: Bool = false
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if !hasSeenWelcome {
+                WelcomeView(onNext: {
+                    hasSeenWelcome = true
+                })
+            } else if !hasSeenTutorial {
+                TutorialView(onNext: {
+                    hasSeenTutorial = true
+                })
+            } else {
+                HomeView()
+            }
         }
-        .padding()
+        .onAppear {
+            // Redefinir os valores temporariamente para testar novamente
+            // Remova essas linhas depois de testar
+            hasSeenWelcome = false
+            hasSeenTutorial = false
+        }
     }
-}
-
-#Preview {
-    ContentView()
 }
